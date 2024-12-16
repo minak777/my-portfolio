@@ -6,7 +6,7 @@ function Home() {
     >
       <div className="max-w-4xl rounded-lg shadow-2xl shadow-black p-10 text-center space-y-6 mx-5">
         {/* Welcome Text */}
-        <h1 className="text-5xl font text-white tracking-tight">
+        <h1 className="text-5xl font text-white tracking-tight font-light">
           Welcome to My Space
         </h1>
 

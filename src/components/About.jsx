@@ -18,8 +18,8 @@ function About() {
 
         {/* Skills Section */}
         <div className="w-full m-2">
-          <h2 className="text-white text-4xl md:text-5xl font-thin text-center my-5 ">
-            Skills
+          <h2 className="text-white text-4xl md:text-5xl font-thin text-center mb-7 mt-4 ">
+            My Skills
           </h2>
 
           {/* Skills Grid */}
