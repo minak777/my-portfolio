@@ -35,11 +35,12 @@ function Contact() {
         </div>
       )}
 
-      <div className="flex justify-center flex-col items-center backdrop-blur-sm rounded-lg shadow-lg shadow-black p-8 max-w-3xl w-full">
+      <div
+        id="contact"
+        className="flex justify-center flex-col items-center backdrop-blur-sm rounded-lg shadow-lg shadow-black p-8 mx-3 max-w-3xl w-full"
+      >
         {/* Heading */}
-        <span className="text-teal-400 text-5xl font-semibold mb-4 font-body">
-          Contact Me
-        </span>
+        <span className="text-white text-5xl font-thin mb-10">Contact Me</span>
 
         {/* Contact List */}
         <div className="text-teal-100 text-xl space-y-4">

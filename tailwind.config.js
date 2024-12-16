@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        title: ["Neonderthaw", "cursive",],
-        body: ["Lobster", "sans-serif"],
+        title: ["Roboto Mono", "monospace"],
+        
       }
      
     },

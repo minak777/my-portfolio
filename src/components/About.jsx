@@ -1,21 +1,24 @@
 function About() {
   return (
-    <div className="min-h-screen w-full flex justify-center items-center bg-gradient-to-r from-gray-950 to-gray-800 p-6">
-      <div className="flex flex-col items-center backdrop-blur-sm rounded-lg shadow-lg shadow-black p-8 max-w-5xl w-full space-y-8">
+    <div
+      id="about"
+      className="min-h-screen w-full flex justify-center items-center bg-gradient-to-r from-gray-950 to-gray-800 p-6"
+    >
+      <div className="flex flex-col items-center backdrop-blur-sm rounded-lg shadow-2xl shadow-black p-8 max-w-5xl w-full space-y-8">
         {/* Heading */}
-        <h1 className="text-teal-200 text-4xl md:text-5xl font-bold text-center">
+        <h1 className="text-white text-4xl md:text-5xl font-thin text-center">
           About Me
         </h1>
 
         {/* Description */}
-        <p className="text-teal-100 text-base md:text-lg lg:text-xl text-center leading-relaxed max-w-3xl">
+        <p className="text-teal-100 text-base md:text-lg lg:text-xl text-center font-light leading-relaxed max-w-3xl">
           I am a computer science graduate based in Addis Ababa, Ethiopia.
           Passionate about technology and continuously improving my skills.
         </p>
 
         {/* Skills Section */}
-        <div className="w-full">
-          <h2 className="text-teal-200 text-2xl md:text-3xl font-semibold text-center mb-6">
+        <div className="w-full m-2">
+          <h2 className="text-white text-4xl md:text-5xl font-thin text-center my-5 ">
             Skills
           </h2>
 
@@ -23,10 +26,10 @@ function About() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Frontend Development */}
             <div className="flex flex-col items-center">
-              <h3 className="text-teal-300 text-lg md:text-xl font-semibold mb-2">
+              <h3 className="text-teal-300 text-lg md:text-xl font-light mb-2">
                 Frontend Development
               </h3>
-              <ul className="text-teal-100 text-sm md:text-base space-y-1 text-center">
+              <ul className="text-teal-100 text-sm md:text-base space-y-1 font-light text-center">
                 <li>React.JS</li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -37,10 +40,10 @@ function About() {
 
             {/* Mobile App Development */}
             <div className="flex flex-col items-center">
-              <h3 className="text-teal-300 text-lg md:text-xl font-semibold mb-2">
+              <h3 className="text-teal-300 font-light text-lg md:text-xl mb-2">
                 Mobile App Development
               </h3>
-              <ul className="text-teal-100 text-sm md:text-base space-y-1 text-center">
+              <ul className="text-teal-100 font-light text-sm md:text-base space-y-1 text-center">
                 <li>Flutter</li>
                 <li>Firebase</li>
               </ul>
@@ -48,10 +51,10 @@ function About() {
 
             {/* Version Control */}
             <div className="flex flex-col items-center">
-              <h3 className="text-teal-300 text-lg md:text-xl font-semibold mb-2">
+              <h3 className="text-teal-300 font-light text-lg md:text-xl mb-2">
                 Version Control
               </h3>
-              <ul className="text-teal-100 text-sm md:text-base space-y-1 text-center">
+              <ul className="text-teal-100 font-light text-sm md:text-base space-y-1 text-center">
                 <li>Git</li>
               </ul>
             </div>
