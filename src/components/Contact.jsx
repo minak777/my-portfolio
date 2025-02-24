@@ -60,7 +60,15 @@ function Contact() {
 
           <div className="flex flex-row items-center">
             <BsTelegram className="m-1" />
-            <span>: @Minase7777</span>
+            <span>:&nbsp;</span>
+            <a
+              href="https://t.me/Heyfool"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-teal-200 hover:text-teal-400"
+            >
+              https://t.me/Heyfool
+            </a>
             <IoCopy
               className="ml-5 cursor-pointer"
               onClick={() => handleCopy("@Minase7777")}
