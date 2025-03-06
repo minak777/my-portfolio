@@ -63,20 +63,20 @@ function Project() {
         {/* Heading */}
         <img src={pic2} alt="" className="mb-4 w-full h-auto rounded-md" />
         <span className="text-teal-200 text-lg font-light mb-5">
-          One changed life organization webpage
+          Zeweter podcast app
         </span>
         <div className="flex flex-row justify-evenly space-x-4">
           <span className="text-sm text-black bg-gray-500 rounded-full p-1 pl-2 pr-2">
-            React JS
+            Flutter
           </span>
           <span className="text-sm text-black bg-gray-500 rounded-full p-1 pl-4 pr-4">
-            CSS
+            Dart
           </span>
           <span className="text-sm text-black bg-gray-500 rounded-full p-1 pl-4 pr-4">
-            Tailwind
+            git
           </span>
           <span className="text-sm text-black bg-gray-500 rounded-full p-1 pl-4 pr-4">
-            HTML
+            Firebase
           </span>
         </div>
       </div>
@@ -89,7 +89,7 @@ function Project() {
         {/* Heading */}
         <img src={pic3} alt="" className="mb-4 w-full h-auto rounded-md" />
         <span className="text-teal-200 text-lg font-light mb-5">
-          One changed life organization webpage
+          My portfolio
         </span>
         <div className="flex flex-row justify-evenly space-x-4">
           <span className="text-sm text-black bg-gray-500 rounded-full p-1 pl-2 pr-2">
